@@ -1,0 +1,36 @@
+<!-- FIz um checklist ultilizando html, css e javascript conforme o pedido -->
+<!-- funções, estruturas de decisão e laço estão no arquivo script.js  -->
+<!-- todos os css estão no arquivo style.css -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de coisas para fazer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="para-fazer">
+            <h2>Coisas para fazer</h2>
+
+            <div class="row">
+                <input type="text" id="input-box" placeholder="escreva aqui">
+                <button id="btn" onclick="addTask()">adicionar</button>
+            </div>
+
+            <div class="lista">
+                <ul id="lista_container">
+                    <!-- <li class="checked">l1</li>
+                    <li>l2</li>
+                    <li>l3</li> -->
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
